@@ -1,9 +1,6 @@
 name: enzywizard-clean
 channels:
   - conda-forge
-  - salilab
-  - defaults
-  - acellera
   - bioconda
 dependencies:
   - _openmp_mutex=4.5=20_gnu
@@ -12,6 +9,7 @@ dependencies:
   - ca-certificates=2026.2.25=hbd8a1cb_0
   - cuda-nvrtc=12.9.86=hecca717_1
   - cuda-version=12.9=h4f385c5_3
+  - icu=78.3=h33c6efd_0
   - ld_impl_linux-64=2.45.1=default_hbd61a6d_102
   - libblas=3.11.0=6_h4a7cf45_openblas
   - libcblas=3.11.0=6_h0358290_openblas
@@ -27,7 +25,7 @@ dependencies:
   - liblzma=5.8.3=hb03c661_0
   - libnsl=2.0.1=hb9d3cd8_1
   - libopenblas=0.3.32=pthreads_h94d23a6_0
-  - libsqlite=3.53.0=h0c1763c_0
+  - libsqlite=3.53.0=hf4e2dac_0
   - libstdcxx=15.2.0=h934c35e_18
   - libstdcxx-ng=15.2.0=hdf11a46_18
   - libuuid=2.42=h5347b49_0

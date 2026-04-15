@@ -1,7 +1,7 @@
 
 # EnzyWizard-Clean
 
-'''
+
 EnzyWizard-Clean is a command-line tool for cleaning protein structures, generating 
 multi-format protein files (CIF, PDB, and FASTA), and providing a detailed traceable
 cleaning report. It standardizes residue names, removes problematic residues 
@@ -12,18 +12,18 @@ converts the structure into a cleaned protein chain, optionally adds hydrogens
 using OpenMM, and outputs cleaned structure files together with a JSON report 
 summarizing residue mapping and cleaning statistics.
 
-'''
+
 
 # example usage:
-'''
+
 Example command:
 
 enzywizard-clean -i examples/input/3GP6.cif -o examples/output/
 
-'''
+
 
 # input parameters:
-'''
+
 -i, --input_path
 Required.
 Path to the input protein structure file in CIF or PDB format.
@@ -42,10 +42,10 @@ Optional.
 pH value used for hydrogen addition.
 Default: 7.0
 Valid range: 0.0 to 14.0
-'''
+
 
 # output content:
-'''
+
 The program outputs the following files into the output directory:
 
 1. Cleaned structure files
@@ -115,10 +115,10 @@ The program outputs the following files into the output directory:
 
      - "kept_residues"
        Number of residues kept in the final cleaned structure.
-'''
+
 
 # Process:
-'''
+
 This command processes the input protein structure as follows:
 
 1. Load the input structure
@@ -153,17 +153,17 @@ This command processes the input protein structure as follows:
    - Save the cleaned structure in PDB format (Biopython PDBIO).
    - Extract and save the cleaned amino acid sequence in FASTA format.
    - Generate and save the JSON report summarizing residue mapping and statistics.
-'''
+
 
 # dependencies:
-'''
+
 - Biopython
 - OpenMM
 - NumPy
-'''
+
 
 # references:
-'''
+
 - Biopython:
   https://biopython.org/
 
@@ -175,4 +175,3 @@ This command processes the input protein structure as follows:
 
 - Rosetta structure preparation overview:
   https://docs.rosettacommons.org/docs/latest/rosetta_basics/preparation/preparing-structures
-'''
