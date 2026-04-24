@@ -1,6 +1,6 @@
-# ==============================
+
 # Command: enzywizard-clean
-# ==============================
+
 
 EnzyWizard-Clean is a command-line tool for cleaning protein structures, generating 
 multi-format protein files (CIF, PDB, and FASTA), and providing a detailed traceable
